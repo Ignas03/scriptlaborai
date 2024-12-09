@@ -1,0 +1,199 @@
+:root {
+    --background-color: rgb(248, 233, 204);
+    --text-color: #555;
+}
+
+.dark-theme {
+    --background-color: #2c2c2c;
+    --text-color: wheat;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "Jaro";
+    font-weight: 900;
+    font-size: 18px;
+    justify-content: center;
+    display: list-item;
+    text-align: center;
+}
+
+header {
+    justify-content: left;
+    text-align: left;
+}
+
+/*body{
+    color: c;
+    font-family: "Jaro";
+    font-weight: 900;
+    font-size: 18px;
+    border-style: double;
+    
+}
+    */
+
+h2{
+    background-color: #555;
+    color: wheat;
+    justify-content: center;
+    display: list-item;
+    text-align: center;
+}
+
+.barr {
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: #555;
+    color: #555;
+}
+
+
+.bar li{
+    display: inline;
+}
+.bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.bar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+a.one:link {color:none;}
+a.one:visited {color:none;}
+a.one:hover {color: none;}
+
+
+a.two{
+    color: brown;
+}
+a.two:active{
+    color: greenyellow;
+}
+a.two:visited{
+    color: wheat;
+}
+a.two:hover {
+    background-color: rgb(99, 99, 93);
+    font-size: 18px;
+}
+    
+
+
+button {
+    margin: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #676565;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: "Jaro";
+    font-weight: 700;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #bdb2b2;
+}
+
+footer {
+    border-width: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: rgb(161, 157, 148);
+    color: rgb(88, 88, 246);
+    border-color: rgb(109, 93, 63);
+    text-align: center;
+    
+}
+
+a.soc {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+a.soc:hover {
+    color: yellow;
+    text-decoration: underline;
+    margin: none;
+    padding: 1px;
+    cursor: pointer;
+    border: none;
+    border-radius: 1px;
+    background-color: rgb(167, 151, 122);
+}
+
+#paslaugos{
+    justify-content: center;
+    display: list-item;
+    text-align: center;
+}
+
+#paslaugos video,
+#paslaugos iframe,
+#paslaugos audio {
+    margin: 10px auto;
+    display: block;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: var(--background-color);
+    
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.class2 {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.green {
+    color: green;
+}
+.orange {
+    color: orange;
+}
+.red {
+    color: red;
+}

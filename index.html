@@ -1,0 +1,215 @@
+<!--Ignas Laugalys EF-23/1-->
+<!DOCTYPE html>
+
+<html lang="lt"> 
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="description" content="pirmasis puslapis">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Ignas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>suo</title>
+    </head>
+<body>
+
+  <header>
+    <h1>Puslapis</h1>
+     <a class="one" href="https://vilniustech.lt">  
+       <img src="Elektronikos_melynas.png" alt="logo" style="width:400px;height:150px;">  
+     </a>
+  </header>
+
+  <div>
+    <div class="barr">  
+      <ul class="bar">
+          <li><a class="two" href="#Apie">Apie</a></li>
+          <li><a class="two" href="#Aprasymas">Aprašymas</a></li>
+          <li><a class="two" href="#Atlikti darbai">Atlikti darbai</a></li>
+          <li><a class="two" href="#paslaugos">Paslaugos</a></li>
+          <li>
+            <button id="themeToggleBtn">Šviesus/Tamsus režimas</button>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="turinys">
+    <div>
+      <h2 id="Apie">Apie</h2>
+        <p>This is the content of Section 1.</p>
+        <img src="lora.jpg" alt="lora" style="width:200px;height:200px;">
+
+      <h2 id="Aprasymas">Aprasymas</h2>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2This is the content of Section 2This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+        <p>This is the content of Section 2.</p>
+    </div>
+
+    <div>
+      <h2 id="Atlikti darbai">atlikti darbai</h2>
+        <p>This is the content of Section 3.</p>
+    </div>
+
+    <div id="paslaugos">
+      <h2>Paslaugos</h2>
+        <p>This is the content of Section paslaugos.</p>
+    
+      <video width="320" height="240" controls>
+          <source src="suo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/OmtH_3gSVBE" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+
+     <audio controls>
+       <source src="muzika.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+    </div>
+
+  </div>
+
+  <math display="block">
+    <msubsup>
+        <mo>&int;</mo> 
+        <mrow>
+        <msub>
+        <mi>D</mi>
+        </msub>
+        </mrow>
+        <mrow>
+        <msub>
+        </msub>
+        </mrow>
+        </msubsup>
+        <mo>(</mo>
+        <mo>&nabla;</mo>
+        <mo>&#x22C5;</mo>
+        <mi>f</mi>
+        <mo>)</mo>
+        <mo>dV</mo>
+        <mo>=</mo>
+        <mfenced separators=' '>
+            <msubsup>
+                <mo>&int;</mo> 
+                <mrow>
+                <msub>
+                <mi>&#x2202;D</mi>
+                </msub>
+                </mrow>
+                <mrow>
+                <msub>
+                </msub>
+                </mrow>
+                </msubsup>
+                <mo>F</mo>
+            <mo>&#x22C5;</mo>
+            <mo>ndS</mo>
+           
+        
+  </math>
+
+  <svg width="100%" height="150" xmlns="http://www.w3.org/2000/svg">
+    <rect x="45" y="18" width="155" height="45" style="stroke:green;fill:green;">
+      <animateMotion
+        path="M0,0 q60,100 100,0 q60,-20 100,0"
+        begin="0s"
+        dur="10s"
+        repeatCount="indefinite" />
+    </rect>
+    <text x="50" y="50" style="font-family:Verdana;font-size:32">It's SVG
+      <animateMotion
+        path="M0,0 q60,100 100,0 q60,-20 100,0"
+        begin="0s"
+        dur="10s"
+        repeatCount="indefinite" />
+  </text>
+  </svg>
+
+  <svg height="130" width="500">
+    <defs>
+      <linearGradient id="grad1">
+        <stop offset="0%" stop-color="yellow" />
+        <stop offset="100%" stop-color="red" />
+      </linearGradient>
+    </defs>
+    <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+    Sorry, your browser does not support inline SVG.
+  </svg>
+  
+  <section id="clock-section">
+    <h2>Laikrodis</h2>
+    <div id="clock" class="clock-style">00:00:00</div>
+  </section>
+
+  <h1>Kontaktų Forma</h1>
+    <form id="contactForm">
+        <label for="firstName">Vardas:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        
+        <label for="lastName">Pavardė:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        
+        <label for="email">El. paštas:</label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError" class="error"></span>
+        
+        <label for="phone">Telefonas:</label>
+        <input type="tel" id="phone" name="phone" pattern="^\+?[0-9\s-]{8,15}$" required>
+        <span id="phoneError" class="error"></span>
+        
+        <label for="address">Adresas:</label>
+        <input type="text" id="address" name="address" required>
+        <span id="addressError" class="error"></span>
+        
+        <label for="feature1">Požymis 1:</label>
+        <input type="number" id="feature1" name="feature1" required>
+        
+        <label for="feature2">Požymis 2:</label>
+        <input type="number" id="feature2" name="feature2" required>
+        
+        <label for="feature3">Požymis 3:</label>
+        <input type="number" id="feature3" name="feature3" required>
+        
+        <label for="feature4">Požymis 4:</label>
+        <input type="number" id="feature4" name="feature4" required>
+        
+        <label for="feature5">Požymis 5:</label>
+        <input type="number" id="feature5" name="feature5" required>
+        
+        <button type="button" id="saveButton">Išsaugoti</button>
+    </form>
+    <div id="result" class="result"></div>
+
+   
+
+  <footer>
+    <p>Author: Ignas Laugalys<br>
+    <p>Soc. tinklai:<br>
+    <a class="soc" href="https://www.facebook.com">facebook</a></p>
+    <p>el. paštas: ignas3038@gmail.com<br>
+  </footer>
+
+  <script src="pvz.js"></script>
+
+</body>
+</html>
